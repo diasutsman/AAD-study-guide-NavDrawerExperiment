@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_import"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/txt_import_menu"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_gallery"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="@string/txt_gallery_menu"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_slideshow"
+        android:title="@string/txt_menu_slideshow"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_slideshow" />
+
+    <item
+        android:id="@+id/action_tools"
+        android:title="@string/txt_tools_menu"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_settings" />
+</menu>

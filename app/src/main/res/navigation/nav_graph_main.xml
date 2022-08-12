@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_drawer"
+    app:startDestination="@id/action_import">
+    <fragment
+        android:id="@+id/action_gallery"
+        android:name="com.dias.navdrawerexperiment.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/action_import"
+        android:name="com.dias.navdrawerexperiment.ImportFragment"
+        android:label="fragment_import"
+        tools:layout="@layout/fragment_import" />
+    <fragment
+        android:id="@+id/action_slideshow"
+        android:name="com.dias.navdrawerexperiment.SlideshowFragment"
+        android:label="fragment_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/action_tools"
+        android:name="com.dias.navdrawerexperiment.ToolsFragment"
+        android:label="fragment_tools"
+        tools:layout="@layout/fragment_tools" />
+</navigation>
